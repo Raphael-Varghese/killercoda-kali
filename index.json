@@ -1,0 +1,37 @@
+{
+  "title": "Kali Linux Ethical Hacking Lab (Host-Based)",
+  "description": "Transform an Ubuntu host into a fully working Kali Linux-style penetration testing environment by adding Kali repositories and installing 300+ ethical hacking tools directly on the system.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Verify the Kali Environment",
+        "text": "step1.md",
+        "verify": "verify1.sh"
+      },
+      {
+        "title": "Explore Installed Tools & Run Reconnaissance",
+        "text": "step2.md",
+        "verify": "verify2.sh"
+      },
+      {
+        "title": "Your First Ethical Hacking Exercise",
+        "text": "step3.md",
+        "verify": "verify3.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "icon": "fa fa-shield-alt"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
